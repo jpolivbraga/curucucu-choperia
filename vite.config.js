@@ -8,10 +8,13 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'robots.txt'],
+      workbox: {
+        navigateFallbackDenylist: [/^\/docs\//]
+      },
       manifest: {
-        name: 'Choperia Casarão — Pirenópolis',
-        short_name: 'Casarão',
-        description: 'Chope artesanal, petiscos e tradição no coração histórico de Pirenópolis-GO.',
+        name: 'Curucucu — Pirenópolis',
+        short_name: 'Curucucu',
+        description: 'Arte, Chopp & Encontro no coração histórico de Pirenópolis-GO.',
         theme_color: '#3D533D',
         background_color: '#FFECD3',
         display: 'standalone',
