@@ -1,0 +1,15 @@
+Coloque aqui os ícones dos 5 botões principais, em PNG ou SVG,
+fundo transparente, recomendado 64x64px:
+
+cardapio.png       -> botão "Cardápio Digital"
+quem-somos.png     -> botão "Quem Somos"
+whatsapp.png       -> botão "Fale Conosco"
+localizacao.png    -> botão "Localização"
+instagram.png      -> botão "Instagram"
+
+Os caminhos são configurados em src/config/breweryConfig.js,
+dentro do campo "iconesAcoes". Se quiser usar outros nomes de
+arquivo, só ajustar os caminhos lá.
+
+Se um ícone não for encontrado, o círculo colorido aparece vazio
+(sem quebrar o layout) até você adicionar o arquivo.

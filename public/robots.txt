@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://casaraopirenopolis.com.br/sitemap.xml
