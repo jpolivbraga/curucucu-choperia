@@ -35,7 +35,7 @@ export default function InstallPrompt() {
         >
           <div className="glass-card flex items-center justify-between gap-3 rounded-2xl px-4 py-3 shadow-soft">
             <p className="text-xs text-verde-escuro dark:text-fundo-branco">
-              Adicione o Casarão à tela inicial para acesso rápido.
+              Adicione a Curucucu à tela inicial para acesso rápido.
             </p>
             <div className="flex shrink-0 gap-2">
               <button

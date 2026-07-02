@@ -38,7 +38,7 @@ export const breweryConfig = {
   cardapioPdf: "/docs/cardapio.pdf",
   quemSomosPdf: "/docs/quem-somos.pdf",
 
-  ytMusicPlaylist: "https://music.youtube.com/playlist?list=EXEMPLOEXEMPLOEXEMPLO",
+  ytMusicPlaylist: "https://music.youtube.com/playlist?list=PLaoS3oY6Dka0&si=VH5OO0c1MyujcQHD",
 
   iconesAcoes: {
     cardapio: "/icons/acoes/cardapio.png",
@@ -48,7 +48,7 @@ export const breweryConfig = {
     instagram: "/icons/acoes/instagram.png"
   },
 
-  siteUrl: "https://casaraopirenopolis.com.br",
+  siteUrl: "https://curucucu-choperia.vercel.app",
 
   galeria: [
     { src: "/images/galeria/ambiente-1.jpeg", alt: "Salão principal do Casarão com iluminação quente" },
