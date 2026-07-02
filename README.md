@@ -1,4 +1,4 @@
-# Casarão Chopp & Cia — Hub Digital
+# Curucucu — Hub Digital
 
 Landing page estilo Linktree Premium para choperia, construída com React + Vite + Tailwind CSS. Sem banco de dados, sem painel administrativo — todo o conteúdo vive em um único arquivo de configuração.
 
