@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import MainButtons from "./components/MainButtons"
 import Gallery from "./components/Gallery"
+import ConhecaPiri from "./components/ConhecaPiri"
 import ExtraActions from "./components/ExtraActions"
 import InstallPrompt from "./components/InstallPrompt"
 import Footer from "./components/Footer"
@@ -12,6 +13,7 @@ export default function App() {
         <Header />
         <MainButtons />
         <Gallery />
+        <ConhecaPiri />
         <ExtraActions />
         <Footer />
       </div>

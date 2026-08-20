@@ -43,6 +43,13 @@ export const breweryConfig = {
   cardapioPdf: "/docs/cardapio.pdf",
   quemSomosPdf: "/docs/quem-somos.pdf",
 
+  conhecaPiri: {
+    capa: "/icons/acoes/conheca-piri.png",
+    url: "/conheca-piri.html",
+    atrativosNaturaisPdf: "/docs/atrativos-naturais.pdf",
+    mirantesPdf: "/docs/mirantes.pdf"
+  },
+
   ytMusicPlaylist: "https://music.youtube.com/playlist?list=PLaoS3oY6Dka0&si=VH5OO0c1MyujcQHD",
 
   iconesAcoes: {
