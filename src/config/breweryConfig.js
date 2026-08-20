@@ -32,6 +32,11 @@ export const breweryConfig = {
     url: "https://www.instagram.com/curucucu.piri/"
   },
 
+  tiktok: {
+    usuario: "@curucucu.piri",
+    url: "https://www.tiktok.com/@curucucu.piri"
+  },
+
   googleMaps: "https://www.google.com.br/maps/place/Curucucu/@-15.8510449,-48.9601204,17z/data=!3m1!4b1!4m6!3m5!1s0x935c6dd3997ec84b:0x92887435e08118ed!8m2!3d-15.8510501!4d-48.9575455!16s%2Fg%2F11zfln4l5n?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
   googleReviews: "https://www.google.com.br/maps/place/Curucucu/@-15.8510449,-48.9601204,17z/data=!4m8!3m7!1s0x935c6dd3997ec84b:0x92887435e08118ed!8m2!3d-15.8510501!4d-48.9575455!9m1!1b1!16s%2Fg%2F11zfln4l5n?hl=pt-BR&entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
 
@@ -45,7 +50,8 @@ export const breweryConfig = {
     quemSomos: "/icons/acoes/quem-somos.png",
     whatsapp: "/icons/acoes/whatsapp.png",
     localizacao: "/icons/acoes/localizacao.png",
-    instagram: "/icons/acoes/instagram.png"
+    instagram: "/icons/acoes/instagram.png",
+    tiktok: "/icons/acoes/tiktok.png"
   },
 
   siteUrl: "https://curucucu-choperia.vercel.app",

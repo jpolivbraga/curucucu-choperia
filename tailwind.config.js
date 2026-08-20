@@ -24,7 +24,11 @@ export default {
           branco: '#FFF8EF'
         },
         terracota: '#C9794A',
-        madeira: '#5A4334'
+        madeira: '#5A4334',
+        carvao: {
+          DEFAULT: '#c6c6c6',
+          claro: '#cecece'
+        }
       },
       fontFamily: {
         display: ['"Fraunces"', 'serif'],
