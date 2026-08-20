@@ -4,7 +4,11 @@ import { trackEvent } from "../utils/analytics"
 
 export default function ConhecaPiri() {
   return (
-    <section className="mt-10 px-6">
+    <section className="mt-3 px-6">
+      <h2 className="font-display mb-3 text-xl font-semibold text-verde-escuro dark:text-fundo-branco">
+        Turismo
+      </h2>
+
       <motion.a
         href={breweryConfig.conhecaPiri.url}
         target="_blank"

@@ -58,20 +58,48 @@
     .card {
       display: flex;
       align-items: center;
-      justify-content: space-between;
       gap: 1rem;
       background: rgba(255,248,239,0.55);
       backdrop-filter: blur(14px);
       border: 1px solid rgba(255,255,255,0.4);
       box-shadow: 0 8px 24px -10px rgba(43,59,43,0.35);
       border-radius: 1rem;
-      padding: 1.1rem 1.3rem;
+      padding: 1rem 1.3rem;
       text-decoration: none;
       color: inherit;
       margin-bottom: 0.9rem;
       transition: transform 0.2s ease;
     }
     .card:hover { transform: translateY(-2px); }
+    .avatar {
+      position: relative;
+      flex-shrink: 0;
+      width: 52px;
+      height: 52px;
+    }
+    .avatar img {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      background: var(--branco);
+    }
+    .avatar .badge {
+      position: absolute;
+      bottom: -4px;
+      right: -4px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--amarelo);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 13px;
+      border: 2px solid var(--fundo);
+    }
+    .card-text { flex: 1; }
     .card-title {
       font-family: "Fraunces", serif;
       font-size: 1.05rem;
@@ -84,7 +112,7 @@
       display: block;
       margin-top: 2px;
     }
-    .arrow { opacity: 0.4; font-size: 1.1rem; }
+    .arrow { opacity: 0.4; font-size: 1.1rem; flex-shrink: 0; }
   </style>
 </head>
 <body>
@@ -94,7 +122,11 @@
     <p class="lead">Descubra os cantos mais bonitos de Pirenópolis. Escolha um guia abaixo:</p>
 
     <a class="card" href="/docs/atrativos-naturais.pdf" target="_blank" rel="noopener noreferrer">
-      <span>
+      <span class="avatar">
+        <img src="/images/turismo/atrativos-naturais.jpg" alt="" />
+        <span class="badge">🌿</span>
+      </span>
+      <span class="card-text">
         <span class="card-title">Atrativos Naturais</span>
         <span class="card-sub">Cachoeiras, trilhas e paisagens</span>
       </span>
@@ -102,7 +134,11 @@
     </a>
 
     <a class="card" href="/docs/mirantes.pdf" target="_blank" rel="noopener noreferrer">
-      <span>
+      <span class="avatar">
+        <img src="/images/turismo/mirantes.jpg" alt="" />
+        <span class="badge">🌄</span>
+      </span>
+      <span class="card-text">
         <span class="card-title">Mirantes</span>
         <span class="card-sub">Os melhores pontos de vista da cidade</span>
       </span>
