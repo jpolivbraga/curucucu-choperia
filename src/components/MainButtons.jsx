@@ -46,6 +46,14 @@ const actions = [
     icon: breweryConfig.iconesAcoes.instagram,
     href: breweryConfig.instagram.url,
     accent: "from-terracota to-vermelho"
+  },
+  {
+    id: "tiktok",
+    label: "TikTok",
+    sub: breweryConfig.tiktok.usuario,
+    icon: breweryConfig.iconesAcoes.tiktok,
+    href: breweryConfig.tiktok.url,
+    accent: "from-carvao to-carvao-claro"
   }
 ]
 
