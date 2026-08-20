@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import MainButtons from "./components/MainButtons"
+import ConhecaPiri from "./components/ConhecaPiri"
 import Gallery from "./components/Gallery"
 import ExtraActions from "./components/ExtraActions"
 import InstallPrompt from "./components/InstallPrompt"
@@ -11,6 +12,7 @@ export default function App() {
       <div className="mx-auto max-w-md pb-24">
         <Header />
         <MainButtons />
+        <ConhecaPiri />
         <Gallery />
         <ExtraActions />
         <Footer />
