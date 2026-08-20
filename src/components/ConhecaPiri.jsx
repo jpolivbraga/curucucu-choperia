@@ -11,8 +11,6 @@ export default function ConhecaPiri() {
 
       <motion.a
         href={breweryConfig.conhecaPiri.url}
-        target="_blank"
-        rel="noopener noreferrer"
         onClick={() => trackEvent("click_link", { link: "conheca_piri" })}
         whileHover={{ y: -3, scale: 1.015 }}
         whileTap={{ scale: 0.97 }}
